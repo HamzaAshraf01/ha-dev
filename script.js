@@ -114,7 +114,7 @@ tl.to("#page-2" , {
 var tl2 = gsap.timeline({scrollTrigger:{
   trigger:"#page-3",
   scroller: "#main" ,
-  markers:true,
+  // markers:true,
   start:"50% 50%",
   end:"+=100%",
   scrub:0.5,
